@@ -14,7 +14,7 @@ on:
 
 jobs:
   reusable-job:
-    runs-on: it-78884-2
+    runs-on: self-hosted
     outputs:
       current-time: ${{ steps.time.outputs.time }}
     steps:
