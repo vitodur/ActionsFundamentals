@@ -8,7 +8,7 @@ jobs:
     with:
       who-to-greet: '@octocat'
   use-output:
-    runs-on: ubuntu-latest
+    runs-on: it-78884-2
     needs: [call-workflow]
     steps:
       - run: echo "Time was ${{ needs.call-workflow.outputs.current-time }}"
