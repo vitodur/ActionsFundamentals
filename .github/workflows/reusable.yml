@@ -14,7 +14,7 @@ on:
 
 jobs:
   reusable-job:
-    runs-on: ubuntu-latest
+    runs-on: it-78884-2
     outputs:
       current-time: ${{ steps.time.outputs.time }}
     steps:
